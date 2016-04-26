@@ -1,0 +1,72 @@
+:imagesdir: doc/images/
+== MayDay Customer
+
+=== Login screen
+- *Enter the user name and password in the login screen, Make sure that users are already created in the RestComm application server. Example for user name is User name “bob” and Password “1234”.*
+
+image::customerOne.jpg[align="center"] 
+
+
+- *Enter the Domain name and Agent name by clicking settings icon.*
+
+image::customerThree.jpg[align="center"] 
+
+IMPORTANT: Domain is the sip domain to which the user has to register to. Agent is the agent name with whom the customer is going to have a call.  Since current code base doesn’t include any server side call queuing agent name is mentioned as part of the configuration so that when the May day icon is clicked he will be able to have a 1-2-1 call with the agent mentioned in the configuration. This agent configuration can be removed once the application uses server side call queueing.
+
+=== Home screen
+- *Once user presses login, the user will be registered with sip server mentioned in the domain in the settings screen and application will show the home screen. In the home screen user will be able to see the products which have current offers on top of the screen and different category likes “Our products”, “My Products”.*
+
+image::customerFive.jpg[align="center"] 
+
+=== Customer support page
+- *When user select the product from MY PRODUCTS or OUR PRODUCTS section Customer support page will be opened*
+
+image::customerSeven.jpg[align="center"] 
+
+=== Self help tips page
+- *By selecting “Customer Support” user will be able to navigate to more information*
+
+image::customerEight.jpg[align="center"] 
+
+=== Video chatting
+- *Click on “May day icon” on top right corner in any of the page and select Video to intiate the call*
+
+image::CustomerMayDayLaunch.jpg[align="center"] 
+
+- *When call is answered by the Agent,Customer can start video chatting.while video chat in progress customer can minimize and maximize the video and also he can navigate to other pages*
+
+image::customerSix.jpg[align="center"] 
+
+=== Instant Messaging
+*Click on “May day icon” on top right corner in any of the page and select IM to start chatting*
+
+image::customerNine.jpg[align="center"]
+
+== MayDay Agent
+
+=== Login screen
+
+- *Once the user clicks on the Mayday Agent launcher, application will show the login screen along with settings icon on the top right corner. User can click on the settings tab and can mention the SIP proxy domain. Example:  “cloud.restcomm.com” or “10.10.220.130” or “10.10.220.130:5080”*
+
+image::AgentLoginOne.jpg[align="center"] 
+
+- *In the Agent screen enter the Username of the agent and agent password. Make sure that users are created in the RestComm application server.*
+
+image::AgentLoginTwo.jpg[align="center"] 
+
+=== Home screen
+
+- *After successful Authentication agent home screen is displayed. Agent home screen shows the statistical view of the agent.*
+
+image::AgentHome.jpg[align="center"] 
+
+=== Receive call 
+
+- *When agent receives the call from the customer, contextual information of the customer is displayed.*
+
+image::AgentCall.jpg[align="center"] 
+
+=== Instant Messaging
+*When the agent receives the IM messages from the customer, chat window will pop up and shows the chat history.*
+
+image::AgentIM.jpg[align="center"] 

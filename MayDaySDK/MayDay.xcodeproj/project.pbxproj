@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA0D849F1CCF6AF00008E87A /* RCCustomChatAndVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D84991CCF6AF00008E87A /* RCCustomChatAndVideoView.m */; };
+		CA0D84A01CCF6AF00008E87A /* ARDVideoCallView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D849A1CCF6AF00008E87A /* ARDVideoCallView.m */; };
+		CA0D84A11CCF6AF00008E87A /* RCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D849C1CCF6AF00008E87A /* RCManager.m */; };
+		CA0D84AD1CCF6EBE0008E87A /* Constants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA0D84971CCF6AF00008E87A /* Constants.h */; };
+		CA0D84AE1CCF6EBE0008E87A /* RCCustomChatAndVideoView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA0D84981CCF6AF00008E87A /* RCCustomChatAndVideoView.h */; };
+		CA0D84AF1CCF6EBE0008E87A /* RCManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA0D849B1CCF6AF00008E87A /* RCManager.h */; };
+		CA0D84B01CCF6EBE0008E87A /* ARDVideoCallView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA0D849D1CCF6AF00008E87A /* ARDVideoCallView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CA0D84871CCF6A5E0008E87A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CA0D84AD1CCF6EBE0008E87A /* Constants.h in CopyFiles */,
+				CA0D84AE1CCF6EBE0008E87A /* RCCustomChatAndVideoView.h in CopyFiles */,
+				CA0D84AF1CCF6EBE0008E87A /* RCManager.h in CopyFiles */,
+				CA0D84B01CCF6EBE0008E87A /* ARDVideoCallView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CA0D84891CCF6A5E0008E87A /* libMayDay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMayDay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0D84971CCF6AF00008E87A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CA0D84981CCF6AF00008E87A /* RCCustomChatAndVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCustomChatAndVideoView.h; sourceTree = "<group>"; };
+		CA0D84991CCF6AF00008E87A /* RCCustomChatAndVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCustomChatAndVideoView.m; sourceTree = "<group>"; };
+		CA0D849A1CCF6AF00008E87A /* ARDVideoCallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDVideoCallView.m; sourceTree = "<group>"; };
+		CA0D849B1CCF6AF00008E87A /* RCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCManager.h; sourceTree = "<group>"; };
+		CA0D849C1CCF6AF00008E87A /* RCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCManager.m; sourceTree = "<group>"; };
+		CA0D849D1CCF6AF00008E87A /* ARDVideoCallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDVideoCallView.h; sourceTree = "<group>"; };
+		CA0D84A31CCF6D8C0008E87A /* call_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_icon36.png; sourceTree = "<group>"; };
+		CA0D84A41CCF6D8C0008E87A /* chat_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_close.png; sourceTree = "<group>"; };
+		CA0D84A51CCF6D8C0008E87A /* chat_maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_maximize.png; sourceTree = "<group>"; };
+		CA0D84A61CCF6D8C0008E87A /* chat_minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_minimize.png; sourceTree = "<group>"; };
+		CA0D84A71CCF6D8C0008E87A /* maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maximize.png; sourceTree = "<group>"; };
+		CA0D84A81CCF6D8C0008E87A /* message_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_send.png; sourceTree = "<group>"; };
+		CA0D84A91CCF6D8C0008E87A /* minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minimize.png; sourceTree = "<group>"; };
+		CA0D84AA1CCF6D8C0008E87A /* receivecall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = receivecall.png; sourceTree = "<group>"; };
+		CA0D84AB1CCF6D8C0008E87A /* speaker_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_icon36.png; sourceTree = "<group>"; };
+		CA0D84AC1CCF6D8C0008E87A /* speaker_mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_mute.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA0D84861CCF6A5E0008E87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA0D84801CCF6A5E0008E87A = {
+			isa = PBXGroup;
+			children = (
+				CA0D84A21CCF6D8C0008E87A /* images */,
+				CA0D848B1CCF6A5E0008E87A /* MayDay */,
+				CA0D848A1CCF6A5E0008E87A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA0D848A1CCF6A5E0008E87A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D84891CCF6A5E0008E87A /* libMayDay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA0D848B1CCF6A5E0008E87A /* MayDay */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D84971CCF6AF00008E87A /* Constants.h */,
+				CA0D84981CCF6AF00008E87A /* RCCustomChatAndVideoView.h */,
+				CA0D84991CCF6AF00008E87A /* RCCustomChatAndVideoView.m */,
+				CA0D849B1CCF6AF00008E87A /* RCManager.h */,
+				CA0D849C1CCF6AF00008E87A /* RCManager.m */,
+				CA0D849D1CCF6AF00008E87A /* ARDVideoCallView.h */,
+				CA0D849A1CCF6AF00008E87A /* ARDVideoCallView.m */,
+			);
+			path = MayDay;
+			sourceTree = "<group>";
+		};
+		CA0D84A21CCF6D8C0008E87A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CA0D84A31CCF6D8C0008E87A /* call_icon36.png */,
+				CA0D84A41CCF6D8C0008E87A /* chat_close.png */,
+				CA0D84A51CCF6D8C0008E87A /* chat_maximize.png */,
+				CA0D84A61CCF6D8C0008E87A /* chat_minimize.png */,
+				CA0D84A71CCF6D8C0008E87A /* maximize.png */,
+				CA0D84A81CCF6D8C0008E87A /* message_send.png */,
+				CA0D84A91CCF6D8C0008E87A /* minimize.png */,
+				CA0D84AA1CCF6D8C0008E87A /* receivecall.png */,
+				CA0D84AB1CCF6D8C0008E87A /* speaker_icon36.png */,
+				CA0D84AC1CCF6D8C0008E87A /* speaker_mute.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA0D84881CCF6A5E0008E87A /* MayDay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA0D84921CCF6A5E0008E87A /* Build configuration list for PBXNativeTarget "MayDay" */;
+			buildPhases = (
+				CA0D84851CCF6A5E0008E87A /* Sources */,
+				CA0D84861CCF6A5E0008E87A /* Frameworks */,
+				CA0D84871CCF6A5E0008E87A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MayDay;
+			productName = MayDay;
+			productReference = CA0D84891CCF6A5E0008E87A /* libMayDay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA0D84811CCF6A5E0008E87A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = span;
+				TargetAttributes = {
+					CA0D84881CCF6A5E0008E87A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = CA0D84841CCF6A5E0008E87A /* Build configuration list for PBXProject "MayDay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CA0D84801CCF6A5E0008E87A;
+			productRefGroup = CA0D848A1CCF6A5E0008E87A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA0D84881CCF6A5E0008E87A /* MayDay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA0D84851CCF6A5E0008E87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0D849F1CCF6AF00008E87A /* RCCustomChatAndVideoView.m in Sources */,
+				CA0D84A11CCF6AF00008E87A /* RCManager.m in Sources */,
+				CA0D84A01CCF6AF00008E87A /* ARDVideoCallView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA0D84901CCF6A5E0008E87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA0D84911CCF6A5E0008E87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0D84931CCF6A5E0008E87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					$SOURCE_ROOT/../dependencies/packages/RestCommClientLib/include/RestCommClient,
+					$SOURCE_ROOT/../dependencies/packages/webrtc/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CA0D84941CCF6A5E0008E87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					$SOURCE_ROOT/../dependencies/packages/RestCommClientLib/include/RestCommClient,
+					$SOURCE_ROOT/../dependencies/packages/webrtc/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA0D84841CCF6A5E0008E87A /* Build configuration list for PBXProject "MayDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0D84901CCF6A5E0008E87A /* Debug */,
+				CA0D84911CCF6A5E0008E87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA0D84921CCF6A5E0008E87A /* Build configuration list for PBXNativeTarget "MayDay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0D84931CCF6A5E0008E87A /* Debug */,
+				CA0D84941CCF6A5E0008E87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA0D84811CCF6A5E0008E87A /* Project object */;
+}
