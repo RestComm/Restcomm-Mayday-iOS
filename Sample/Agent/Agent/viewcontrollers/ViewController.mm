@@ -48,19 +48,19 @@
 }
 -(IBAction)doLogin:(id)sender
 {
-    if ([self.textName.text length]==0 || [self.textPassword.text length]==0) {
-        [self showAlert:@"Username and Password cannot be blank."];
-    }
-    else if ([[RCManager sharedInstance].serverURL length]==0)
-    {
-        [self showAlert:@"Please configure Domain address in settings"];
-    }
-    else
-    {
+        if ([self.textName.text length]==0 || [self.textPassword.text length]==0) {
+            [self showAlert:@"Username and Password cannot be blank."];
+        }
+        else if ([[RCManager sharedInstance].serverURL length]==0)
+        {
+            [self showAlert:@"Please configure Domain address in settings"];
+        }
+        else
+        {
             [[RCManager sharedInstance] registerWithUserName:[NSString stringWithFormat:@"sip:%@@telestax.com", self.textName.text] password:self.textPassword.text];
             [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(receiveConnectivityUpdate:) name:RCReceiveConnectivityUpdate object:nil];
             [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(unregister:) name:UIApplicationWillResignActiveNotification object:nil];
-    }
+        }
 }
 - (void) receiveConnectivityUpdate:(NSNotification *) notification
 {

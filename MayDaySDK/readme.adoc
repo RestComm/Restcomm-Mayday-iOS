@@ -3,7 +3,7 @@
 
 == Prerequisites
 -	Restcomm Communications Platform
--	Xcode 6 with at least iOS SDK 7 or higher
+-	Xcode 6 and above with at least iOS SDK 7 or higher
 
 == How to configure
 -	Copy dependencies folder to project bundle.
@@ -19,7 +19,7 @@
              *Note:* It resides inside MayDay->MayDayImagesAndXIB
 
 -  Include search paths in the Xcode. Go to project -> Select your target -> Build settings ->  Select ‘All’ to see all settings Search for ‘search’ to filter the Header Search Paths -> Edit the paths And then press the (+) sign to add the full paths to the includes for
-*a. RestCommClient* library and *b. webrtc* library
+*a. RestCommClient* library , *b. webrtc* and *c. mayday* library
 As an example, in my case those full paths I added above are:
 
    $SOURCE_ROOT/../../dependencies/packages/RestCommClientLib/include/RestCommClient
@@ -29,7 +29,6 @@ As an example, in my case those full paths I added above are:
    $SOURCE_ROOT/../../dependencies/packages/mayday/include/MayDay.
 
 -  Include search paths in the Xcode. Go to project -> Select your target -> Build settings ->  Select ‘All’ to see all settings Search for ‘search’ to filter the Library Search Paths -> Edit the paths And then press the (+) sign to add the full paths.
-
 As an example, in my case those full paths I added above are: 
 
    $SOURCE_ROOT/../../dependencies/packages/openssl-1.0.1/lib/

@@ -70,7 +70,7 @@
 - (void)pan:(UIPanGestureRecognizer *)aPan
 {
     CGPoint currentPoint = [aPan locationInView:self.superview];
-    if (currentPoint.y > 20 && currentPoint.y <self.superview.frame.size.height-150)
+    if (currentPoint.y > 20 && currentPoint.y <self.superview.frame.size.height-180)
     {
         [UIView animateWithDuration:0.01f
                          animations:^{
