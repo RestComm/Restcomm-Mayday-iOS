@@ -7,19 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA0D84B21CCF74540008E87A /* libMayDay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0D84B11CCF74540008E87A /* libMayDay.a */; };
-		CAA6BF0F1CCFACC0002B8088 /* call_icon36.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF031CCFACC0002B8088 /* call_icon36.png */; };
-		CAA6BF101CCFACC0002B8088 /* chat_close.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF041CCFACC0002B8088 /* chat_close.png */; };
-		CAA6BF111CCFACC0002B8088 /* chat_maximize.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF051CCFACC0002B8088 /* chat_maximize.png */; };
-		CAA6BF121CCFACC0002B8088 /* chat_minimize.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF061CCFACC0002B8088 /* chat_minimize.png */; };
-		CAA6BF131CCFACC0002B8088 /* InstantMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF071CCFACC0002B8088 /* InstantMessageView.xib */; };
-		CAA6BF141CCFACC0002B8088 /* maximize.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF081CCFACC0002B8088 /* maximize.png */; };
-		CAA6BF151CCFACC0002B8088 /* message_send.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF091CCFACC0002B8088 /* message_send.png */; };
-		CAA6BF161CCFACC0002B8088 /* minimize.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF0A1CCFACC0002B8088 /* minimize.png */; };
-		CAA6BF171CCFACC0002B8088 /* receivecall.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF0B1CCFACC0002B8088 /* receivecall.png */; };
-		CAA6BF181CCFACC0002B8088 /* speaker_icon36.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF0C1CCFACC0002B8088 /* speaker_icon36.png */; };
-		CAA6BF191CCFACC0002B8088 /* speaker_mute.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF0D1CCFACC0002B8088 /* speaker_mute.png */; };
-		CAA6BF1A1CCFACC0002B8088 /* VideoChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF0E1CCFACC0002B8088 /* VideoChatView.xib */; };
+		CA8961C31CFDC10B008E7E17 /* libMayDay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8961C21CFDC10B008E7E17 /* libMayDay.a */; };
+		CA8961D31CFDC116008E7E17 /* call_icon36.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961C51CFDC116008E7E17 /* call_icon36.png */; };
+		CA8961D41CFDC116008E7E17 /* chat_close.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961C61CFDC116008E7E17 /* chat_close.png */; };
+		CA8961D51CFDC116008E7E17 /* chat_maximize.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961C71CFDC116008E7E17 /* chat_maximize.png */; };
+		CA8961D61CFDC116008E7E17 /* chat_minimize.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961C81CFDC116008E7E17 /* chat_minimize.png */; };
+		CA8961D71CFDC116008E7E17 /* InstantMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8961C91CFDC116008E7E17 /* InstantMessageView.xib */; };
+		CA8961D81CFDC116008E7E17 /* maximize.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961CA1CFDC116008E7E17 /* maximize.png */; };
+		CA8961D91CFDC116008E7E17 /* message_send.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961CB1CFDC116008E7E17 /* message_send.png */; };
+		CA8961DA1CFDC116008E7E17 /* minimize.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961CC1CFDC116008E7E17 /* minimize.png */; };
+		CA8961DB1CFDC116008E7E17 /* RCCustomChatAndVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8961CE1CFDC116008E7E17 /* RCCustomChatAndVideoView.m */; };
+		CA8961DC1CFDC116008E7E17 /* receivecall.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961CF1CFDC116008E7E17 /* receivecall.png */; };
+		CA8961DD1CFDC116008E7E17 /* speaker_icon36.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961D01CFDC116008E7E17 /* speaker_icon36.png */; };
+		CA8961DE1CFDC116008E7E17 /* speaker_mute.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961D11CFDC116008E7E17 /* speaker_mute.png */; };
+		CA8961DF1CFDC116008E7E17 /* VideoChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8961D21CFDC116008E7E17 /* VideoChatView.xib */; };
+		CA8961E21CFDC208008E7E17 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8961E01CFDC208008E7E17 /* libsqlite3.dylib */; };
+		CA8961E31CFDC208008E7E17 /* libresolv.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8961E11CFDC208008E7E17 /* libresolv.9.dylib */; };
 		CABFD6E81CCDE55400AA5CC4 /* CustomerSupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABFD6E11CCDE55400AA5CC4 /* CustomerSupportViewController.m */; };
 		CABFD6E91CCDE55400AA5CC4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABFD6E31CCDE55400AA5CC4 /* HomeViewController.m */; };
 		CABFD6EA1CCDE55400AA5CC4 /* SelfHelpTipsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CABFD6E51CCDE55400AA5CC4 /* SelfHelpTipsViewController.m */; };
@@ -79,8 +82,6 @@
 		CAE866F11CCA63540021A4ED /* libRestCommClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE866F01CCA63540021A4ED /* libRestCommClient.a */; };
 		CAE866F31CCA63610021A4ED /* libsofia-sip-ua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE866F21CCA63610021A4ED /* libsofia-sip-ua.a */; };
 		CAE866F51CCA636D0021A4ED /* libWebRTC-9814.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE866F41CCA636D0021A4ED /* libWebRTC-9814.a */; };
-		CAE866F81CCA63A90021A4ED /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE866F61CCA63A90021A4ED /* libsqlite3.dylib */; };
-		CAE866F91CCA63A90021A4ED /* libresolv.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE866F71CCA63A90021A4ED /* libresolv.9.dylib */; };
 		CAE866FB1CCA65950021A4ED /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE866FA1CCA65950021A4ED /* CoreMotion.framework */; };
 		CAE866FD1CCA65A30021A4ED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE866FC1CCA65A30021A4ED /* SystemConfiguration.framework */; };
 		CAE866FF1CCA66530021A4ED /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAE866FE1CCA66530021A4ED /* CoreMedia.framework */; };
@@ -104,19 +105,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA0D84B11CCF74540008E87A /* libMayDay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMayDay.a; path = ../../dependencies/packages/mayday/libMayDay.a; sourceTree = "<group>"; };
-		CAA6BF031CCFACC0002B8088 /* call_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_icon36.png; sourceTree = "<group>"; };
-		CAA6BF041CCFACC0002B8088 /* chat_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_close.png; sourceTree = "<group>"; };
-		CAA6BF051CCFACC0002B8088 /* chat_maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_maximize.png; sourceTree = "<group>"; };
-		CAA6BF061CCFACC0002B8088 /* chat_minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_minimize.png; sourceTree = "<group>"; };
-		CAA6BF071CCFACC0002B8088 /* InstantMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstantMessageView.xib; sourceTree = "<group>"; };
-		CAA6BF081CCFACC0002B8088 /* maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maximize.png; sourceTree = "<group>"; };
-		CAA6BF091CCFACC0002B8088 /* message_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_send.png; sourceTree = "<group>"; };
-		CAA6BF0A1CCFACC0002B8088 /* minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minimize.png; sourceTree = "<group>"; };
-		CAA6BF0B1CCFACC0002B8088 /* receivecall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = receivecall.png; sourceTree = "<group>"; };
-		CAA6BF0C1CCFACC0002B8088 /* speaker_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_icon36.png; sourceTree = "<group>"; };
-		CAA6BF0D1CCFACC0002B8088 /* speaker_mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_mute.png; sourceTree = "<group>"; };
-		CAA6BF0E1CCFACC0002B8088 /* VideoChatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoChatView.xib; sourceTree = "<group>"; };
+		CA8961C21CFDC10B008E7E17 /* libMayDay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMayDay.a; path = ../../dependencies/packages/mayday/libMayDay.a; sourceTree = "<group>"; };
+		CA8961C51CFDC116008E7E17 /* call_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_icon36.png; sourceTree = "<group>"; };
+		CA8961C61CFDC116008E7E17 /* chat_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_close.png; sourceTree = "<group>"; };
+		CA8961C71CFDC116008E7E17 /* chat_maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_maximize.png; sourceTree = "<group>"; };
+		CA8961C81CFDC116008E7E17 /* chat_minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_minimize.png; sourceTree = "<group>"; };
+		CA8961C91CFDC116008E7E17 /* InstantMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstantMessageView.xib; sourceTree = "<group>"; };
+		CA8961CA1CFDC116008E7E17 /* maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maximize.png; sourceTree = "<group>"; };
+		CA8961CB1CFDC116008E7E17 /* message_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_send.png; sourceTree = "<group>"; };
+		CA8961CC1CFDC116008E7E17 /* minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minimize.png; sourceTree = "<group>"; };
+		CA8961CD1CFDC116008E7E17 /* RCCustomChatAndVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCustomChatAndVideoView.h; sourceTree = "<group>"; };
+		CA8961CE1CFDC116008E7E17 /* RCCustomChatAndVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCustomChatAndVideoView.m; sourceTree = "<group>"; };
+		CA8961CF1CFDC116008E7E17 /* receivecall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = receivecall.png; sourceTree = "<group>"; };
+		CA8961D01CFDC116008E7E17 /* speaker_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_icon36.png; sourceTree = "<group>"; };
+		CA8961D11CFDC116008E7E17 /* speaker_mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_mute.png; sourceTree = "<group>"; };
+		CA8961D21CFDC116008E7E17 /* VideoChatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoChatView.xib; sourceTree = "<group>"; };
+		CA8961E01CFDC208008E7E17 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		CA8961E11CFDC208008E7E17 /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = ../../../../../../../usr/lib/libresolv.9.dylib; sourceTree = "<group>"; };
 		CABFD6E01CCDE55400AA5CC4 /* CustomerSupportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerSupportViewController.h; sourceTree = "<group>"; };
 		CABFD6E11CCDE55400AA5CC4 /* CustomerSupportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerSupportViewController.m; sourceTree = "<group>"; };
 		CABFD6E21CCDE55400AA5CC4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -187,8 +192,6 @@
 		CAE866F01CCA63540021A4ED /* libRestCommClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libRestCommClient.a; path = ../../dependencies/packages/RestCommClientLib/libRestCommClient.a; sourceTree = "<group>"; };
 		CAE866F21CCA63610021A4ED /* libsofia-sip-ua.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libsofia-sip-ua.a"; path = "../../dependencies/packages/sofia-sip-1.12.11/lib/libsofia-sip-ua.a"; sourceTree = "<group>"; };
 		CAE866F41CCA636D0021A4ED /* libWebRTC-9814.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libWebRTC-9814.a"; path = "../../dependencies/packages/webrtc/libWebRTC-9814.a"; sourceTree = "<group>"; };
-		CAE866F61CCA63A90021A4ED /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
-		CAE866F71CCA63A90021A4ED /* libresolv.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.9.dylib; path = ../../../../../../usr/lib/libresolv.9.dylib; sourceTree = "<group>"; };
 		CAE866FA1CCA65950021A4ED /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		CAE866FC1CCA65A30021A4ED /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CAE866FE1CCA66530021A4ED /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -199,6 +202,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA8961E21CFDC208008E7E17 /* libsqlite3.dylib in Frameworks */,
+				CA8961E31CFDC208008E7E17 /* libresolv.9.dylib in Frameworks */,
 				CAE866FF1CCA66530021A4ED /* CoreMedia.framework in Frameworks */,
 				CAE866DB1CCA607C0021A4ED /* QuartzCore.framework in Frameworks */,
 				CAE866FD1CCA65A30021A4ED /* SystemConfiguration.framework in Frameworks */,
@@ -213,14 +218,12 @@
 				CAE866EB1CCA60C60021A4ED /* VideoToolbox.framework in Frameworks */,
 				CAE866E91CCA60BB0021A4ED /* AVFoundation.framework in Frameworks */,
 				CAE866D71CCA60660021A4ED /* UIKit.framework in Frameworks */,
-				CAE866F81CCA63A90021A4ED /* libsqlite3.dylib in Frameworks */,
-				CAE866F91CCA63A90021A4ED /* libresolv.9.dylib in Frameworks */,
 				CAE866F51CCA636D0021A4ED /* libWebRTC-9814.a in Frameworks */,
 				CAE866EE1CCA63420021A4ED /* libcrypto.a in Frameworks */,
 				CAE866EF1CCA63420021A4ED /* libssl.a in Frameworks */,
 				CAE866F31CCA63610021A4ED /* libsofia-sip-ua.a in Frameworks */,
+				CA8961C31CFDC10B008E7E17 /* libMayDay.a in Frameworks */,
 				CAE866F11CCA63540021A4ED /* libRestCommClient.a in Frameworks */,
-				CA0D84B21CCF74540008E87A /* libMayDay.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,24 +244,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CAA6BF021CCFACC0002B8088 /* MayDayImagesAndXIB */ = {
+		CA8961C41CFDC116008E7E17 /* MayDayImagesAndXIB */ = {
 			isa = PBXGroup;
 			children = (
-				CAA6BF031CCFACC0002B8088 /* call_icon36.png */,
-				CAA6BF041CCFACC0002B8088 /* chat_close.png */,
-				CAA6BF051CCFACC0002B8088 /* chat_maximize.png */,
-				CAA6BF061CCFACC0002B8088 /* chat_minimize.png */,
-				CAA6BF071CCFACC0002B8088 /* InstantMessageView.xib */,
-				CAA6BF081CCFACC0002B8088 /* maximize.png */,
-				CAA6BF091CCFACC0002B8088 /* message_send.png */,
-				CAA6BF0A1CCFACC0002B8088 /* minimize.png */,
-				CAA6BF0B1CCFACC0002B8088 /* receivecall.png */,
-				CAA6BF0C1CCFACC0002B8088 /* speaker_icon36.png */,
-				CAA6BF0D1CCFACC0002B8088 /* speaker_mute.png */,
-				CAA6BF0E1CCFACC0002B8088 /* VideoChatView.xib */,
+				CA8961C51CFDC116008E7E17 /* call_icon36.png */,
+				CA8961C61CFDC116008E7E17 /* chat_close.png */,
+				CA8961C71CFDC116008E7E17 /* chat_maximize.png */,
+				CA8961C81CFDC116008E7E17 /* chat_minimize.png */,
+				CA8961C91CFDC116008E7E17 /* InstantMessageView.xib */,
+				CA8961CA1CFDC116008E7E17 /* maximize.png */,
+				CA8961CB1CFDC116008E7E17 /* message_send.png */,
+				CA8961CC1CFDC116008E7E17 /* minimize.png */,
+				CA8961CD1CFDC116008E7E17 /* RCCustomChatAndVideoView.h */,
+				CA8961CE1CFDC116008E7E17 /* RCCustomChatAndVideoView.m */,
+				CA8961CF1CFDC116008E7E17 /* receivecall.png */,
+				CA8961D01CFDC116008E7E17 /* speaker_icon36.png */,
+				CA8961D11CFDC116008E7E17 /* speaker_mute.png */,
+				CA8961D21CFDC116008E7E17 /* VideoChatView.xib */,
 			);
-			name = MayDayImagesAndXIB;
-			path = ../../MayDaySDK/MayDayImagesAndXIB;
+			path = MayDayImagesAndXIB;
 			sourceTree = "<group>";
 		};
 		CABFD6DF1CCDE55400AA5CC4 /* viewcontrollers */ = {
@@ -318,7 +322,7 @@
 		CAE866881CCA5D230021A4ED = {
 			isa = PBXGroup;
 			children = (
-				CAA6BF021CCFACC0002B8088 /* MayDayImagesAndXIB */,
+				CA8961C41CFDC116008E7E17 /* MayDayImagesAndXIB */,
 				CABFD6EC1CCDE5DC00AA5CC4 /* images */,
 				CAE866C71CCA5F4B0021A4ED /* Frameworks */,
 				CAE866931CCA5D240021A4ED /* Customer */,
@@ -382,12 +386,12 @@
 		CAE866C71CCA5F4B0021A4ED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CA0D84B11CCF74540008E87A /* libMayDay.a */,
+				CA8961E01CFDC208008E7E17 /* libsqlite3.dylib */,
+				CA8961E11CFDC208008E7E17 /* libresolv.9.dylib */,
+				CA8961C21CFDC10B008E7E17 /* libMayDay.a */,
 				CAE866FE1CCA66530021A4ED /* CoreMedia.framework */,
 				CAE866FC1CCA65A30021A4ED /* SystemConfiguration.framework */,
 				CAE866FA1CCA65950021A4ED /* CoreMotion.framework */,
-				CAE866F61CCA63A90021A4ED /* libsqlite3.dylib */,
-				CAE866F71CCA63A90021A4ED /* libresolv.9.dylib */,
 				CAE866F41CCA636D0021A4ED /* libWebRTC-9814.a */,
 				CAE866F21CCA63610021A4ED /* libsofia-sip-ua.a */,
 				CAE866F01CCA63540021A4ED /* libRestCommClient.a */,
@@ -475,7 +479,7 @@
 				TargetAttributes = {
 					CAE866901CCA5D240021A4ED = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = VA2TN974RP;
+						DevelopmentTeam = 4NF7FVL3DU;
 					};
 					CAE866A91CCA5D240021A4ED = {
 						CreatedOnToolsVersion = 7.2;
@@ -513,31 +517,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAE866A41CCA5D240021A4ED /* LaunchScreen.storyboard in Resources */,
-				CAA6BF141CCFACC0002B8088 /* maximize.png in Resources */,
+				CA8961D81CFDC116008E7E17 /* maximize.png in Resources */,
 				CABFD7391CCDE5DD00AA5CC4 /* search48.png in Resources */,
-				CAA6BF151CCFACC0002B8088 /* message_send.png in Resources */,
+				CA8961D91CFDC116008E7E17 /* message_send.png in Resources */,
 				CABFD7191CCDE5DD00AA5CC4 /* banner1.png in Resources */,
-				CAA6BF0F1CCFACC0002B8088 /* call_icon36.png in Resources */,
-				CAA6BF191CCFACC0002B8088 /* speaker_mute.png in Resources */,
+				CA8961D31CFDC116008E7E17 /* call_icon36.png in Resources */,
+				CA8961DE1CFDC116008E7E17 /* speaker_mute.png in Resources */,
 				CABFD7341CCDE5DD00AA5CC4 /* pro_img.png in Resources */,
 				CAE866A11CCA5D240021A4ED /* Assets.xcassets in Resources */,
 				CAE8669F1CCA5D240021A4ED /* Main.storyboard in Resources */,
 				CABFD73A1CCDE5DD00AA5CC4 /* setting-icon36.png in Resources */,
-				CAA6BF131CCFACC0002B8088 /* InstantMessageView.xib in Resources */,
+				CA8961D71CFDC116008E7E17 /* InstantMessageView.xib in Resources */,
 				CABFD7171CCDE5DD00AA5CC4 /* banner.png in Resources */,
-				CAA6BF181CCFACC0002B8088 /* speaker_icon36.png in Resources */,
+				CA8961DD1CFDC116008E7E17 /* speaker_icon36.png in Resources */,
 				CABFD7181CCDE5DD00AA5CC4 /* banner1-400.png in Resources */,
-				CAA6BF101CCFACC0002B8088 /* chat_close.png in Resources */,
+				CA8961D41CFDC116008E7E17 /* chat_close.png in Resources */,
 				CABFD71D1CCDE5DD00AA5CC4 /* banner3.png in Resources */,
 				CABFD7221CCDE5DD00AA5CC4 /* img2.png in Resources */,
-				CAA6BF111CCFACC0002B8088 /* chat_maximize.png in Resources */,
+				CA8961D51CFDC116008E7E17 /* chat_maximize.png in Resources */,
 				CABFD7211CCDE5DD00AA5CC4 /* img1.png in Resources */,
 				CABFD7281CCDE5DD00AA5CC4 /* logo.jpg in Resources */,
 				CABFD7381CCDE5DD00AA5CC4 /* product-img4.png in Resources */,
 				CABFD7331CCDE5DD00AA5CC4 /* offerbanner.png in Resources */,
 				CABFD73C1CCDE5DD00AA5CC4 /* tip_icon.png in Resources */,
 				CABFD7231CCDE5DD00AA5CC4 /* img3.png in Resources */,
-				CAA6BF1A1CCFACC0002B8088 /* VideoChatView.xib in Resources */,
+				CA8961DF1CFDC116008E7E17 /* VideoChatView.xib in Resources */,
 				CABFD7151CCDE5DD00AA5CC4 /* back_icon36.png in Resources */,
 				CABFD7251CCDE5DD00AA5CC4 /* img5.png in Resources */,
 				CABFD72C1CCDE5DD00AA5CC4 /* myproduct-img1.png in Resources */,
@@ -546,7 +550,7 @@
 				CABFD7371CCDE5DD00AA5CC4 /* product-img3.png in Resources */,
 				CABFD72D1CCDE5DD00AA5CC4 /* myproduct-img2.png in Resources */,
 				CABFD7301CCDE5DD00AA5CC4 /* myproduct-img5.png in Resources */,
-				CAA6BF161CCFACC0002B8088 /* minimize.png in Resources */,
+				CA8961DA1CFDC116008E7E17 /* minimize.png in Resources */,
 				CABFD7351CCDE5DD00AA5CC4 /* product-img1.png in Resources */,
 				CABFD7161CCDE5DD00AA5CC4 /* banner-img.png in Resources */,
 				CABFD71F1CCDE5DD00AA5CC4 /* custmercareimg.png in Resources */,
@@ -554,9 +558,9 @@
 				CABFD7321CCDE5DD00AA5CC4 /* offer-banner-tab.png in Resources */,
 				CABFD72F1CCDE5DD00AA5CC4 /* myproduct-img4.png in Resources */,
 				CABFD7361CCDE5DD00AA5CC4 /* product-img2.png in Resources */,
-				CAA6BF121CCFACC0002B8088 /* chat_minimize.png in Resources */,
+				CA8961D61CFDC116008E7E17 /* chat_minimize.png in Resources */,
 				CABFD72E1CCDE5DD00AA5CC4 /* myproduct-img3.png in Resources */,
-				CAA6BF171CCFACC0002B8088 /* receivecall.png in Resources */,
+				CA8961DC1CFDC116008E7E17 /* receivecall.png in Resources */,
 				CABFD7241CCDE5DD00AA5CC4 /* img4.png in Resources */,
 				CABFD7261CCDE5DD00AA5CC4 /* login-bg.png in Resources */,
 			);
@@ -584,6 +588,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CABFD6E81CCDE55400AA5CC4 /* CustomerSupportViewController.m in Sources */,
+				CA8961DB1CFDC116008E7E17 /* RCCustomChatAndVideoView.m in Sources */,
 				CABFD6EA1CCDE55400AA5CC4 /* SelfHelpTipsViewController.m in Sources */,
 				CABFD6EB1CCDE55400AA5CC4 /* ViewController.mm in Sources */,
 				CAE866991CCA5D240021A4ED /* AppDelegate.m in Sources */,
@@ -729,7 +734,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jussi Tuuri (2ZQT933TSS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vijay Kumar (9MR2952B8G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vijay Kumar (9MR2952B8G)";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					$SOURCE_ROOT/../../dependencies/packages/RestCommClientLib/include/RestCommClient,
@@ -749,6 +755,7 @@
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.span.Customer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -756,7 +763,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jussi Tuuri (2ZQT933TSS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vijay Kumar (9MR2952B8G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Vijay Kumar (9MR2952B8G)";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					$SOURCE_ROOT/../../dependencies/packages/RestCommClientLib/include/RestCommClient,
@@ -776,6 +784,7 @@
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.span.Customer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

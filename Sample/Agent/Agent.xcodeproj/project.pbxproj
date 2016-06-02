@@ -64,19 +64,20 @@
 		CA0D847D1CCF399E0008E87A /* AgentOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D84781CCF399E0008E87A /* AgentOneViewController.m */; };
 		CA0D847E1CCF399E0008E87A /* AgentTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D847A1CCF399E0008E87A /* AgentTwoViewController.m */; };
 		CA0D847F1CCF399E0008E87A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CA0D847C1CCF399E0008E87A /* ViewController.mm */; };
-		CA0D85291CCF7CC40008E87A /* libMayDay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0D85281CCF7CC40008E87A /* libMayDay.a */; };
-		CAA6BF281CCFAD08002B8088 /* call_icon36.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF1C1CCFAD08002B8088 /* call_icon36.png */; };
-		CAA6BF291CCFAD08002B8088 /* chat_close.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF1D1CCFAD08002B8088 /* chat_close.png */; };
-		CAA6BF2A1CCFAD08002B8088 /* chat_maximize.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF1E1CCFAD08002B8088 /* chat_maximize.png */; };
-		CAA6BF2B1CCFAD08002B8088 /* chat_minimize.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF1F1CCFAD08002B8088 /* chat_minimize.png */; };
-		CAA6BF2C1CCFAD08002B8088 /* InstantMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF201CCFAD08002B8088 /* InstantMessageView.xib */; };
-		CAA6BF2D1CCFAD08002B8088 /* maximize.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF211CCFAD08002B8088 /* maximize.png */; };
-		CAA6BF2E1CCFAD08002B8088 /* message_send.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF221CCFAD08002B8088 /* message_send.png */; };
-		CAA6BF2F1CCFAD08002B8088 /* minimize.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF231CCFAD08002B8088 /* minimize.png */; };
-		CAA6BF301CCFAD08002B8088 /* receivecall.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF241CCFAD08002B8088 /* receivecall.png */; };
-		CAA6BF311CCFAD08002B8088 /* speaker_icon36.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF251CCFAD08002B8088 /* speaker_icon36.png */; };
-		CAA6BF321CCFAD08002B8088 /* speaker_mute.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF261CCFAD08002B8088 /* speaker_mute.png */; };
-		CAA6BF331CCFAD08002B8088 /* VideoChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAA6BF271CCFAD08002B8088 /* VideoChatView.xib */; };
+		CA8961F31CFDC29B008E7E17 /* call_icon36.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961E51CFDC29B008E7E17 /* call_icon36.png */; };
+		CA8961F41CFDC29B008E7E17 /* chat_close.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961E61CFDC29B008E7E17 /* chat_close.png */; };
+		CA8961F51CFDC29B008E7E17 /* chat_maximize.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961E71CFDC29B008E7E17 /* chat_maximize.png */; };
+		CA8961F61CFDC29B008E7E17 /* chat_minimize.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961E81CFDC29B008E7E17 /* chat_minimize.png */; };
+		CA8961F71CFDC29B008E7E17 /* InstantMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8961E91CFDC29B008E7E17 /* InstantMessageView.xib */; };
+		CA8961F81CFDC29B008E7E17 /* maximize.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961EA1CFDC29B008E7E17 /* maximize.png */; };
+		CA8961F91CFDC29B008E7E17 /* message_send.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961EB1CFDC29B008E7E17 /* message_send.png */; };
+		CA8961FA1CFDC29B008E7E17 /* minimize.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961EC1CFDC29B008E7E17 /* minimize.png */; };
+		CA8961FB1CFDC29B008E7E17 /* RCCustomChatAndVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8961EE1CFDC29B008E7E17 /* RCCustomChatAndVideoView.m */; };
+		CA8961FC1CFDC29C008E7E17 /* receivecall.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961EF1CFDC29B008E7E17 /* receivecall.png */; };
+		CA8961FD1CFDC29C008E7E17 /* speaker_icon36.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961F01CFDC29B008E7E17 /* speaker_icon36.png */; };
+		CA8961FE1CFDC29C008E7E17 /* speaker_mute.png in Resources */ = {isa = PBXBuildFile; fileRef = CA8961F11CFDC29B008E7E17 /* speaker_mute.png */; };
+		CA8961FF1CFDC29C008E7E17 /* VideoChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA8961F21CFDC29B008E7E17 /* VideoChatView.xib */; };
+		CA8962011CFDC2DB008E7E17 /* libMayDay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8962001CFDC2DB008E7E17 /* libMayDay.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,19 +165,21 @@
 		CA0D847A1CCF399E0008E87A /* AgentTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgentTwoViewController.m; sourceTree = "<group>"; };
 		CA0D847B1CCF399E0008E87A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		CA0D847C1CCF399E0008E87A /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
-		CA0D85281CCF7CC40008E87A /* libMayDay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMayDay.a; path = ../../dependencies/packages/mayday/libMayDay.a; sourceTree = "<group>"; };
-		CAA6BF1C1CCFAD08002B8088 /* call_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_icon36.png; sourceTree = "<group>"; };
-		CAA6BF1D1CCFAD08002B8088 /* chat_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_close.png; sourceTree = "<group>"; };
-		CAA6BF1E1CCFAD08002B8088 /* chat_maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_maximize.png; sourceTree = "<group>"; };
-		CAA6BF1F1CCFAD08002B8088 /* chat_minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_minimize.png; sourceTree = "<group>"; };
-		CAA6BF201CCFAD08002B8088 /* InstantMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstantMessageView.xib; sourceTree = "<group>"; };
-		CAA6BF211CCFAD08002B8088 /* maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maximize.png; sourceTree = "<group>"; };
-		CAA6BF221CCFAD08002B8088 /* message_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_send.png; sourceTree = "<group>"; };
-		CAA6BF231CCFAD08002B8088 /* minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minimize.png; sourceTree = "<group>"; };
-		CAA6BF241CCFAD08002B8088 /* receivecall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = receivecall.png; sourceTree = "<group>"; };
-		CAA6BF251CCFAD08002B8088 /* speaker_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_icon36.png; sourceTree = "<group>"; };
-		CAA6BF261CCFAD08002B8088 /* speaker_mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_mute.png; sourceTree = "<group>"; };
-		CAA6BF271CCFAD08002B8088 /* VideoChatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoChatView.xib; sourceTree = "<group>"; };
+		CA8961E51CFDC29B008E7E17 /* call_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_icon36.png; sourceTree = "<group>"; };
+		CA8961E61CFDC29B008E7E17 /* chat_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_close.png; sourceTree = "<group>"; };
+		CA8961E71CFDC29B008E7E17 /* chat_maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_maximize.png; sourceTree = "<group>"; };
+		CA8961E81CFDC29B008E7E17 /* chat_minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_minimize.png; sourceTree = "<group>"; };
+		CA8961E91CFDC29B008E7E17 /* InstantMessageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstantMessageView.xib; sourceTree = "<group>"; };
+		CA8961EA1CFDC29B008E7E17 /* maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maximize.png; sourceTree = "<group>"; };
+		CA8961EB1CFDC29B008E7E17 /* message_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_send.png; sourceTree = "<group>"; };
+		CA8961EC1CFDC29B008E7E17 /* minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minimize.png; sourceTree = "<group>"; };
+		CA8961ED1CFDC29B008E7E17 /* RCCustomChatAndVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCustomChatAndVideoView.h; sourceTree = "<group>"; };
+		CA8961EE1CFDC29B008E7E17 /* RCCustomChatAndVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCustomChatAndVideoView.m; sourceTree = "<group>"; };
+		CA8961EF1CFDC29B008E7E17 /* receivecall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = receivecall.png; sourceTree = "<group>"; };
+		CA8961F01CFDC29B008E7E17 /* speaker_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_icon36.png; sourceTree = "<group>"; };
+		CA8961F11CFDC29B008E7E17 /* speaker_mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_mute.png; sourceTree = "<group>"; };
+		CA8961F21CFDC29B008E7E17 /* VideoChatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoChatView.xib; sourceTree = "<group>"; };
+		CA8962001CFDC2DB008E7E17 /* libMayDay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMayDay.a; path = ../../dependencies/packages/mayday/libMayDay.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +207,7 @@
 				CA0D83F11CCF2F9C0008E87A /* libresolv.9.dylib in Frameworks */,
 				CA0D84171CCF36690008E87A /* libWebRTC-9814.a in Frameworks */,
 				CA0D83E71CCF2F460008E87A /* libssl.a in Frameworks */,
-				CA0D85291CCF7CC40008E87A /* libMayDay.a in Frameworks */,
+				CA8962011CFDC2DB008E7E17 /* libMayDay.a in Frameworks */,
 				CA0D83E61CCF2F460008E87A /* libcrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +232,7 @@
 		CA0D83A41CCF2D5C0008E87A = {
 			isa = PBXGroup;
 			children = (
-				CAA6BF1B1CCFAD08002B8088 /* MayDayImagesAndXIB */,
+				CA8961E41CFDC29B008E7E17 /* MayDayImagesAndXIB */,
 				CA0D84181CCF38970008E87A /* images */,
 				CA0D84321CCF38970008E87A /* sounds */,
 				CA0D83E31CCF2F300008E87A /* Framework */,
@@ -294,7 +297,7 @@
 		CA0D83E31CCF2F300008E87A /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				CA0D85281CCF7CC40008E87A /* libMayDay.a */,
+				CA8962001CFDC2DB008E7E17 /* libMayDay.a */,
 				CA0D84161CCF36690008E87A /* libWebRTC-9814.a */,
 				CA0D84141CCF36590008E87A /* libsofia-sip-ua.a */,
 				CA0D84121CCF36490008E87A /* libRestCommClient.a */,
@@ -373,24 +376,25 @@
 			path = viewcontrollers;
 			sourceTree = "<group>";
 		};
-		CAA6BF1B1CCFAD08002B8088 /* MayDayImagesAndXIB */ = {
+		CA8961E41CFDC29B008E7E17 /* MayDayImagesAndXIB */ = {
 			isa = PBXGroup;
 			children = (
-				CAA6BF1C1CCFAD08002B8088 /* call_icon36.png */,
-				CAA6BF1D1CCFAD08002B8088 /* chat_close.png */,
-				CAA6BF1E1CCFAD08002B8088 /* chat_maximize.png */,
-				CAA6BF1F1CCFAD08002B8088 /* chat_minimize.png */,
-				CAA6BF201CCFAD08002B8088 /* InstantMessageView.xib */,
-				CAA6BF211CCFAD08002B8088 /* maximize.png */,
-				CAA6BF221CCFAD08002B8088 /* message_send.png */,
-				CAA6BF231CCFAD08002B8088 /* minimize.png */,
-				CAA6BF241CCFAD08002B8088 /* receivecall.png */,
-				CAA6BF251CCFAD08002B8088 /* speaker_icon36.png */,
-				CAA6BF261CCFAD08002B8088 /* speaker_mute.png */,
-				CAA6BF271CCFAD08002B8088 /* VideoChatView.xib */,
+				CA8961E51CFDC29B008E7E17 /* call_icon36.png */,
+				CA8961E61CFDC29B008E7E17 /* chat_close.png */,
+				CA8961E71CFDC29B008E7E17 /* chat_maximize.png */,
+				CA8961E81CFDC29B008E7E17 /* chat_minimize.png */,
+				CA8961E91CFDC29B008E7E17 /* InstantMessageView.xib */,
+				CA8961EA1CFDC29B008E7E17 /* maximize.png */,
+				CA8961EB1CFDC29B008E7E17 /* message_send.png */,
+				CA8961EC1CFDC29B008E7E17 /* minimize.png */,
+				CA8961ED1CFDC29B008E7E17 /* RCCustomChatAndVideoView.h */,
+				CA8961EE1CFDC29B008E7E17 /* RCCustomChatAndVideoView.m */,
+				CA8961EF1CFDC29B008E7E17 /* receivecall.png */,
+				CA8961F01CFDC29B008E7E17 /* speaker_icon36.png */,
+				CA8961F11CFDC29B008E7E17 /* speaker_mute.png */,
+				CA8961F21CFDC29B008E7E17 /* VideoChatView.xib */,
 			);
-			name = MayDayImagesAndXIB;
-			path = ../../MayDaySDK/MayDayImagesAndXIB;
+			path = MayDayImagesAndXIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -460,7 +464,7 @@
 				TargetAttributes = {
 					CA0D83AC1CCF2D5C0008E87A = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = VA2TN974RP;
+						DevelopmentTeam = 4NF7FVL3DU;
 					};
 					CA0D83C51CCF2D5D0008E87A = {
 						CreatedOnToolsVersion = 7.2;
@@ -503,9 +507,9 @@
 				CA0D84461CCF38980008E87A /* profile3.png in Resources */,
 				CA0D844A1CCF38980008E87A /* Settings-48.png in Resources */,
 				CA0D844C1CCF38980008E87A /* speaker.png in Resources */,
-				CAA6BF2C1CCFAD08002B8088 /* InstantMessageView.xib in Resources */,
+				CA8961F71CFDC29B008E7E17 /* InstantMessageView.xib in Resources */,
 				CA0D84431CCF38980008E87A /* password.png in Resources */,
-				CAA6BF2A1CCFAD08002B8088 /* chat_maximize.png in Resources */,
+				CA8961F51CFDC29B008E7E17 /* chat_maximize.png in Resources */,
 				CA0D83C01CCF2D5D0008E87A /* LaunchScreen.storyboard in Resources */,
 				CA0D84511CCF38980008E87A /* ringing.mp3 in Resources */,
 				CA0D84471CCF38980008E87A /* profilepic.png in Resources */,
@@ -513,15 +517,15 @@
 				CA0D84451CCF38980008E87A /* profile2.png in Resources */,
 				CA0D84361CCF38970008E87A /* available.png in Resources */,
 				CA0D84371CCF38980008E87A /* back_icon36.png in Resources */,
-				CAA6BF321CCFAD08002B8088 /* speaker_mute.png in Resources */,
+				CA8961FE1CFDC29C008E7E17 /* speaker_mute.png in Resources */,
 				CA0D84501CCF38980008E87A /* message.mp3 in Resources */,
-				CAA6BF281CCFAD08002B8088 /* call_icon36.png in Resources */,
-				CAA6BF291CCFAD08002B8088 /* chat_close.png in Resources */,
+				CA8961F31CFDC29B008E7E17 /* call_icon36.png in Resources */,
+				CA8961F41CFDC29B008E7E17 /* chat_close.png in Resources */,
 				CA0D84391CCF38980008E87A /* callsattended.png in Resources */,
 				CA0D844B1CCF38980008E87A /* SpanLogo241.png in Resources */,
-				CAA6BF311CCFAD08002B8088 /* speaker_icon36.png in Resources */,
-				CAA6BF301CCFAD08002B8088 /* receivecall.png in Resources */,
-				CAA6BF2E1CCFAD08002B8088 /* message_send.png in Resources */,
+				CA8961FD1CFDC29C008E7E17 /* speaker_icon36.png in Resources */,
+				CA8961FC1CFDC29C008E7E17 /* receivecall.png in Resources */,
+				CA8961F91CFDC29B008E7E17 /* message_send.png in Resources */,
 				CA0D844F1CCF38980008E87A /* calling.mp3 in Resources */,
 				CA0D83BD1CCF2D5D0008E87A /* Assets.xcassets in Resources */,
 				CA0D843B1CCF38980008E87A /* contact.png in Resources */,
@@ -531,13 +535,13 @@
 				CA0D843F1CCF38980008E87A /* location.png in Resources */,
 				CA0D84411CCF38980008E87A /* mobile.png in Resources */,
 				CA0D83BB1CCF2D5D0008E87A /* Main.storyboard in Resources */,
-				CAA6BF2B1CCFAD08002B8088 /* chat_minimize.png in Resources */,
-				CAA6BF2F1CCFAD08002B8088 /* minimize.png in Resources */,
-				CAA6BF331CCFAD08002B8088 /* VideoChatView.xib in Resources */,
+				CA8961F61CFDC29B008E7E17 /* chat_minimize.png in Resources */,
+				CA8961FA1CFDC29B008E7E17 /* minimize.png in Resources */,
+				CA8961FF1CFDC29C008E7E17 /* VideoChatView.xib in Resources */,
 				CA0D844D1CCF38980008E87A /* username.png in Resources */,
 				CA0D84401CCF38980008E87A /* login.png in Resources */,
 				CA0D84491CCF38980008E87A /* proflie1.png in Resources */,
-				CAA6BF2D1CCFAD08002B8088 /* maximize.png in Resources */,
+				CA8961F81CFDC29B008E7E17 /* maximize.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +568,7 @@
 			files = (
 				CA0D847F1CCF399E0008E87A /* ViewController.mm in Sources */,
 				CA0D83B51CCF2D5D0008E87A /* AppDelegate.m in Sources */,
+				CA8961FB1CFDC29B008E7E17 /* RCCustomChatAndVideoView.m in Sources */,
 				CA0D847E1CCF399E0008E87A /* AgentTwoViewController.m in Sources */,
 				CA0D83B21CCF2D5C0008E87A /* main.m in Sources */,
 				CA0D847D1CCF399E0008E87A /* AgentOneViewController.m in Sources */,
@@ -707,7 +712,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jussi Tuuri (2ZQT933TSS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					$SOURCE_ROOT/../../dependencies/packages/RestCommClientLib/include/RestCommClient,
@@ -727,6 +732,7 @@
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.span.Agent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -735,7 +741,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jussi Tuuri (2ZQT933TSS)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					$SOURCE_ROOT/../../dependencies/packages/RestCommClientLib/include/RestCommClient,
@@ -755,6 +761,7 @@
 				OTHER_LDFLAGS = "-Objc";
 				PRODUCT_BUNDLE_IDENTIFIER = com.span.Agent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
