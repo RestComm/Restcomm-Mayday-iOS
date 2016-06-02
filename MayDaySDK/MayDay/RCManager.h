@@ -20,7 +20,6 @@
 #import <Foundation/Foundation.h>
 #import "RestCommClient.h"
 #import "ARDVideoCallView.h"
-#import "RCCustomChatAndVideoView.h"
 #import "Constants.h"
 
 static NSString *const RCInitialisationComplete =  @"RCInitialisationComplete";  //
@@ -40,7 +39,6 @@ static NSString *const RCReceiveConnectivityUpdate =  @"RCReceiveConnectivityUpd
 @property BOOL isInstantMessagingInProgress;
 @property NSString *serverURL;
 @property NSString *agentName;
-@property RCCustomChatAndVideoView *mChatView;
 @property RTCVideoTrack *remoteVideoTrack;
 
 + (RCManager*)sharedInstance;
@@ -51,8 +49,6 @@ static NSString *const RCReceiveConnectivityUpdate =  @"RCReceiveConnectivityUpd
 - (void)setMuted:(BOOL)muted;
 -(void)sendMessage:(NSString *)message;
 - (void)answerVideoPressed;
--(RCCustomChatAndVideoView *)getRCCustomChatView:(CGRect)instantMessageFrame;
--(RCCustomChatAndVideoView *)getRCCustomVideoChatView:(CGRect)videoChatViewFrame toEmbedInClientVideoView:(BOOL)embedInClientVideoView;
 - (void)stopVideoRendering;
 - (void)diclineIncomingCall;
 @end

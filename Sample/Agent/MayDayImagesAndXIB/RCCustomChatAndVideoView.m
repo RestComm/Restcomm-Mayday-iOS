@@ -21,6 +21,20 @@
 #import "RCManager.h"
 @implementation RCCustomChatAndVideoView
 @synthesize buttonMinimizeOrMaximize,buttonSend,buttonMute;
++ (RCCustomChatAndVideoView*)sharedInstance
+{
+    // 1
+    static RCCustomChatAndVideoView *_sharedInstance = nil;
+    
+    // 2
+    static dispatch_once_t oncePredicate;
+    
+    // 3
+    dispatch_once(&oncePredicate, ^{
+        _sharedInstance = [[RCCustomChatAndVideoView alloc] init];
+    });
+    return _sharedInstance;
+}
 +(id)customMessageViewFrame:(CGRect)frame
 {
     RCCustomChatAndVideoView *customView = [[[NSBundle mainBundle] loadNibNamed:@"InstantMessageView" owner:nil options:nil] lastObject];
@@ -102,6 +116,17 @@
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(removeActivityIndicator) name:RCRemoteVideoReceived object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(connectionDeclined) name:RCConnectionConnectionDeclined object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(removeInstantMessageViewOnChatClosed) name:RCChatClosed object:nil];
+}
+-(RCCustomChatAndVideoView *)getRCCustomChatView:(CGRect)instantMessageFrame
+{
+    self.mChatView=[RCCustomChatAndVideoView customMessageViewFrame:instantMessageFrame];
+    return self.mChatView;
+}
+-(RCCustomChatAndVideoView *)getRCCustomVideoChatView:(CGRect)videoChatViewFrame toEmbedInClientVideoView:(BOOL)embedInClientVideoView
+{
+    self.mChatView=[RCCustomChatAndVideoView customVideoViewFrame:videoChatViewFrame :embedInClientVideoView];
+    [self.mChatView addSubview:[[RCManager sharedInstance]getVideoChatViewWithFrame:CGRectMake(0,0,self.mChatView.frame.size.width,self.mChatView.frame.size.height-35)]];
+    return self.mChatView;
 }
 -(IBAction)receiveCall:(id)sender
 {

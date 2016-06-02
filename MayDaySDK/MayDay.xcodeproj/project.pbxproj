@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CA0D849F1CCF6AF00008E87A /* RCCustomChatAndVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D84991CCF6AF00008E87A /* RCCustomChatAndVideoView.m */; };
-		CA0D84A01CCF6AF00008E87A /* ARDVideoCallView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D849A1CCF6AF00008E87A /* ARDVideoCallView.m */; };
-		CA0D84A11CCF6AF00008E87A /* RCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0D849C1CCF6AF00008E87A /* RCManager.m */; };
-		CA0D84AD1CCF6EBE0008E87A /* Constants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA0D84971CCF6AF00008E87A /* Constants.h */; };
-		CA0D84AE1CCF6EBE0008E87A /* RCCustomChatAndVideoView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA0D84981CCF6AF00008E87A /* RCCustomChatAndVideoView.h */; };
-		CA0D84AF1CCF6EBE0008E87A /* RCManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA0D849B1CCF6AF00008E87A /* RCManager.h */; };
-		CA0D84B01CCF6EBE0008E87A /* ARDVideoCallView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA0D849D1CCF6AF00008E87A /* ARDVideoCallView.h */; };
+		CA8961BB1CFDBA03008E7E17 /* ARDVideoCallView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8961B71CFDBA03008E7E17 /* ARDVideoCallView.m */; };
+		CA8961BC1CFDBA03008E7E17 /* RCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8961BA1CFDBA03008E7E17 /* RCManager.m */; };
+		CA8961BD1CFDBC9A008E7E17 /* ARDVideoCallView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA8961B61CFDBA03008E7E17 /* ARDVideoCallView.h */; };
+		CA8961BE1CFDBC9A008E7E17 /* Constants.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA8961B81CFDBA03008E7E17 /* Constants.h */; };
+		CA8961BF1CFDBC9A008E7E17 /* RCManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CA8961B91CFDBA03008E7E17 /* RCManager.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,10 +21,9 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				CA0D84AD1CCF6EBE0008E87A /* Constants.h in CopyFiles */,
-				CA0D84AE1CCF6EBE0008E87A /* RCCustomChatAndVideoView.h in CopyFiles */,
-				CA0D84AF1CCF6EBE0008E87A /* RCManager.h in CopyFiles */,
-				CA0D84B01CCF6EBE0008E87A /* ARDVideoCallView.h in CopyFiles */,
+				CA8961BD1CFDBC9A008E7E17 /* ARDVideoCallView.h in CopyFiles */,
+				CA8961BE1CFDBC9A008E7E17 /* Constants.h in CopyFiles */,
+				CA8961BF1CFDBC9A008E7E17 /* RCManager.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,23 +31,11 @@
 
 /* Begin PBXFileReference section */
 		CA0D84891CCF6A5E0008E87A /* libMayDay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMayDay.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA0D84971CCF6AF00008E87A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		CA0D84981CCF6AF00008E87A /* RCCustomChatAndVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCCustomChatAndVideoView.h; sourceTree = "<group>"; };
-		CA0D84991CCF6AF00008E87A /* RCCustomChatAndVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCCustomChatAndVideoView.m; sourceTree = "<group>"; };
-		CA0D849A1CCF6AF00008E87A /* ARDVideoCallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDVideoCallView.m; sourceTree = "<group>"; };
-		CA0D849B1CCF6AF00008E87A /* RCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCManager.h; sourceTree = "<group>"; };
-		CA0D849C1CCF6AF00008E87A /* RCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCManager.m; sourceTree = "<group>"; };
-		CA0D849D1CCF6AF00008E87A /* ARDVideoCallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDVideoCallView.h; sourceTree = "<group>"; };
-		CA0D84A31CCF6D8C0008E87A /* call_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_icon36.png; sourceTree = "<group>"; };
-		CA0D84A41CCF6D8C0008E87A /* chat_close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_close.png; sourceTree = "<group>"; };
-		CA0D84A51CCF6D8C0008E87A /* chat_maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_maximize.png; sourceTree = "<group>"; };
-		CA0D84A61CCF6D8C0008E87A /* chat_minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_minimize.png; sourceTree = "<group>"; };
-		CA0D84A71CCF6D8C0008E87A /* maximize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maximize.png; sourceTree = "<group>"; };
-		CA0D84A81CCF6D8C0008E87A /* message_send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message_send.png; sourceTree = "<group>"; };
-		CA0D84A91CCF6D8C0008E87A /* minimize.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minimize.png; sourceTree = "<group>"; };
-		CA0D84AA1CCF6D8C0008E87A /* receivecall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = receivecall.png; sourceTree = "<group>"; };
-		CA0D84AB1CCF6D8C0008E87A /* speaker_icon36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_icon36.png; sourceTree = "<group>"; };
-		CA0D84AC1CCF6D8C0008E87A /* speaker_mute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = speaker_mute.png; sourceTree = "<group>"; };
+		CA8961B61CFDBA03008E7E17 /* ARDVideoCallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARDVideoCallView.h; sourceTree = "<group>"; };
+		CA8961B71CFDBA03008E7E17 /* ARDVideoCallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARDVideoCallView.m; sourceTree = "<group>"; };
+		CA8961B81CFDBA03008E7E17 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CA8961B91CFDBA03008E7E17 /* RCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCManager.h; sourceTree = "<group>"; };
+		CA8961BA1CFDBA03008E7E17 /* RCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +52,7 @@
 		CA0D84801CCF6A5E0008E87A = {
 			isa = PBXGroup;
 			children = (
-				CA0D84A21CCF6D8C0008E87A /* images */,
-				CA0D848B1CCF6A5E0008E87A /* MayDay */,
+				CA8961B51CFDBA03008E7E17 /* MayDay */,
 				CA0D848A1CCF6A5E0008E87A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -81,35 +65,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA0D848B1CCF6A5E0008E87A /* MayDay */ = {
+		CA8961B51CFDBA03008E7E17 /* MayDay */ = {
 			isa = PBXGroup;
 			children = (
-				CA0D84971CCF6AF00008E87A /* Constants.h */,
-				CA0D84981CCF6AF00008E87A /* RCCustomChatAndVideoView.h */,
-				CA0D84991CCF6AF00008E87A /* RCCustomChatAndVideoView.m */,
-				CA0D849B1CCF6AF00008E87A /* RCManager.h */,
-				CA0D849C1CCF6AF00008E87A /* RCManager.m */,
-				CA0D849D1CCF6AF00008E87A /* ARDVideoCallView.h */,
-				CA0D849A1CCF6AF00008E87A /* ARDVideoCallView.m */,
+				CA8961B61CFDBA03008E7E17 /* ARDVideoCallView.h */,
+				CA8961B71CFDBA03008E7E17 /* ARDVideoCallView.m */,
+				CA8961B81CFDBA03008E7E17 /* Constants.h */,
+				CA8961B91CFDBA03008E7E17 /* RCManager.h */,
+				CA8961BA1CFDBA03008E7E17 /* RCManager.m */,
 			);
 			path = MayDay;
-			sourceTree = "<group>";
-		};
-		CA0D84A21CCF6D8C0008E87A /* images */ = {
-			isa = PBXGroup;
-			children = (
-				CA0D84A31CCF6D8C0008E87A /* call_icon36.png */,
-				CA0D84A41CCF6D8C0008E87A /* chat_close.png */,
-				CA0D84A51CCF6D8C0008E87A /* chat_maximize.png */,
-				CA0D84A61CCF6D8C0008E87A /* chat_minimize.png */,
-				CA0D84A71CCF6D8C0008E87A /* maximize.png */,
-				CA0D84A81CCF6D8C0008E87A /* message_send.png */,
-				CA0D84A91CCF6D8C0008E87A /* minimize.png */,
-				CA0D84AA1CCF6D8C0008E87A /* receivecall.png */,
-				CA0D84AB1CCF6D8C0008E87A /* speaker_icon36.png */,
-				CA0D84AC1CCF6D8C0008E87A /* speaker_mute.png */,
-			);
-			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,9 +133,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA0D849F1CCF6AF00008E87A /* RCCustomChatAndVideoView.m in Sources */,
-				CA0D84A11CCF6AF00008E87A /* RCManager.m in Sources */,
-				CA0D84A01CCF6AF00008E87A /* ARDVideoCallView.m in Sources */,
+				CA8961BC1CFDBA03008E7E17 /* RCManager.m in Sources */,
+				CA8961BB1CFDBA03008E7E17 /* ARDVideoCallView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +268,7 @@
 				CA0D84941CCF6A5E0008E87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

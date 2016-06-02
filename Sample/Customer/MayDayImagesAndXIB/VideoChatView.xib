@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1ka-CQ-liB" customClass="RCCustomChatAndVideoView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="250"/>
+            <autoresizingMask key="autoresizingMask" heightSizable="YES"/>
+            <subviews>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" id="1hm-qX-jDq">
+                    <rect key="frame" x="8" y="222" width="20" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </activityIndicatorView>
+                <view contentMode="scaleToFill" id="Nz4-hf-Xh0">
+                    <rect key="frame" x="198" y="215" width="177" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cgi-De-ceO">
+                            <rect key="frame" x="94" y="1" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <state key="normal" backgroundImage="speaker_icon36.png"/>
+                            <connections>
+                                <action selector="muteOrUnmute:" destination="1ka-CQ-liB" eventType="touchUpInside" id="jBv-0S-dlY"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="7wJ-mY-1NE">
+                            <rect key="frame" x="137" y="1" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <state key="normal" backgroundImage="call_icon36.png"/>
+                            <connections>
+                                <action selector="removeRCCustomChatAndVideoView:" destination="1ka-CQ-liB" eventType="touchUpInside" id="7Lh-Gw-CXi"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ff0-ZA-JcE">
+                            <rect key="frame" x="51" y="1" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <state key="normal" backgroundImage="maximize.png"/>
+                            <connections>
+                                <action selector="minimizeOrMaximize:" destination="1ka-CQ-liB" eventType="touchUpInside" id="4Pt-Np-2Hk"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="q8m-nL-oLM">
+                            <rect key="frame" x="8" y="1" width="35" height="35"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                            <state key="normal" backgroundImage="receivecall.png"/>
+                            <connections>
+                                <action selector="receiveCall:" destination="1ka-CQ-liB" eventType="touchUpInside" id="93c-vU-yfc"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="activityindicator" destination="1hm-qX-jDq" id="LzB-Da-DX6"/>
+                <outlet property="buttonMinimizeOrMaximize" destination="ff0-ZA-JcE" id="HoG-CY-XkN"/>
+                <outlet property="buttonMute" destination="cgi-De-ceO" id="Ruv-hQ-hg3"/>
+                <outlet property="buttonReceive" destination="q8m-nL-oLM" id="le4-NA-RYf"/>
+            </connections>
+            <point key="canvasLocation" x="356" y="272"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="call_icon36.png" width="36" height="36"/>
+        <image name="maximize.png" width="96" height="96"/>
+        <image name="receivecall.png" width="36" height="36"/>
+        <image name="speaker_icon36.png" width="36" height="35"/>
+    </resources>
+</document>

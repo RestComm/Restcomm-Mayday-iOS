@@ -17,6 +17,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 #import <UIKit/UIKit.h>
+#import "RCCustomChatAndVideoView.h"
 @interface SelfHelpTipsViewController : UIViewController
 @property (nonatomic,retain) IBOutlet UIButton *buttonMayDay;
 @property (nonatomic,retain) IBOutlet UILabel *labelTipOne;

@@ -17,6 +17,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  */
 #import <UIKit/UIKit.h>
+#import "RCCustomChatAndVideoView.h"
 @interface HomeViewController : UIViewController
 @property (nonatomic,retain) IBOutlet UIButton *buttonMayDay;
 @end

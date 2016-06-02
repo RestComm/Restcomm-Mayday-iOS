@@ -20,7 +20,7 @@
 #import "AgentOneViewController.h"
 
 @interface AgentOneViewController ()
-
+@property RCCustomChatAndVideoView *mChatView;
 @end
 
 @implementation AgentOneViewController
@@ -47,7 +47,7 @@
 {
     AgentTwoViewController *homePage =
     [self.storyboard instantiateViewControllerWithIdentifier:@"AgentTwoViewController"];
-    homePage.mChatView=[[RCManager sharedInstance]getRCCustomVideoChatView:
+    homePage.mChatView=[[RCCustomChatAndVideoView sharedInstance]getRCCustomVideoChatView:
     CGRectMake(30, self.view.frame.size.height/2+100,self.view.frame.size.width-60,self.view.frame.size.height/2-100)  toEmbedInClientVideoView:NO];
     [self presentViewController:homePage animated:YES completion:nil];
 }
@@ -56,7 +56,7 @@
     AgentTwoViewController *homePage =
     [self.storyboard instantiateViewControllerWithIdentifier:@"AgentTwoViewController"];
     [RCManager sharedInstance].isInstantMessagingInProgress=YES;
-    homePage.mChatView=[[RCManager sharedInstance]getRCCustomChatView:CGRectMake(0, self.view.frame.size.height/2,self.view.frame.size.width,self.view.frame.size.height/2)];
+    homePage.mChatView=[[RCCustomChatAndVideoView sharedInstance]getRCCustomChatView:CGRectMake(0, self.view.frame.size.height/2,self.view.frame.size.width,self.view.frame.size.height/2)];
     [homePage.mChatView appendNewMessageNotification:notification];
     [self presentViewController:homePage animated:YES completion:nil];
 }

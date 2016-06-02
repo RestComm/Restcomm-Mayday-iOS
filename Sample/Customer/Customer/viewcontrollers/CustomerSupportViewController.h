@@ -18,7 +18,7 @@
  */
 
 #import <UIKit/UIKit.h>
-
+#import "RCCustomChatAndVideoView.h"
 @interface CustomerSupportViewController : UIViewController
 @property (nonatomic,retain) IBOutlet UIButton *buttonMayDay;
 @property (nonatomic,retain) IBOutlet UILabel *labelTipOne;

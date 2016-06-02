@@ -52,7 +52,7 @@
     if ([[RCManager sharedInstance]isVideoChatInProgress] || [[RCManager sharedInstance]isInstantMessagingInProgress])
     {
         self.buttonMayDay.hidden=YES;
-        [self.view addSubview:[RCManager sharedInstance].mChatView];
+        [self.view addSubview:[RCCustomChatAndVideoView sharedInstance].mChatView];
     }
     else
     {
@@ -82,14 +82,14 @@
 {
     if (buttonIndex==1)
     {
-        self.mChatView=[[RCManager sharedInstance]getRCCustomChatView:CGRectMake(0, self.view.frame.size.height/2,self.view.frame.size.width,self.view.frame.size.height/2)];
+        self.mChatView=[[RCCustomChatAndVideoView sharedInstance]getRCCustomChatView:CGRectMake(0, self.view.frame.size.height/2,self.view.frame.size.width,self.view.frame.size.height/2)];
         [self.view addSubview:self.mChatView];
     }
     else if(buttonIndex==2)
     {
         [[RCManager sharedInstance] connectToRC];
         //Pass YES to the parameter if customer else NO for Agent
-        [self.view addSubview:[[RCManager sharedInstance]getRCCustomVideoChatView:CGRectMake(30, self.view.frame.size.height/2+100,self.view.frame.size.width-60,self.view.frame.size.height/2-100) toEmbedInClientVideoView:YES]];
+        [self.view addSubview:[[RCCustomChatAndVideoView sharedInstance]getRCCustomVideoChatView:CGRectMake(30, self.view.frame.size.height/2+100,self.view.frame.size.width-60,self.view.frame.size.height/2-100) toEmbedInClientVideoView:YES]];
     }
     else
     {

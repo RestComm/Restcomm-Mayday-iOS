@@ -29,8 +29,12 @@
 @property ARDVideoCallView *videoCallView;
 @property BOOL isMute;
 @property BOOL isCustomer;
+@property RCCustomChatAndVideoView *mChatView;
++ (RCCustomChatAndVideoView*)sharedInstance;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityindicator;
 +(id)customMessageViewFrame:(CGRect)frame;
 +(id)customVideoViewFrame:(CGRect)frame :(BOOL)isClientVideoView;
 -(void)appendNewMessageNotification:(NSNotification*)notification;
+-(RCCustomChatAndVideoView *)getRCCustomChatView:(CGRect)instantMessageFrame;
+-(RCCustomChatAndVideoView *)getRCCustomVideoChatView:(CGRect)videoChatViewFrame toEmbedInClientVideoView:(BOOL)embedInClientVideoView;
 @end

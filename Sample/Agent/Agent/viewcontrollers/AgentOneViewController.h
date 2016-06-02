@@ -20,6 +20,7 @@
 #import <UIKit/UIKit.h>
 #import "AgentTwoViewController.h"
 #import "RCManager.h"
+#import "RCCustomChatAndVideoView.h"
 @interface AgentOneViewController : UIViewController
 
 @end

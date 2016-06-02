@@ -18,7 +18,6 @@
  */
 
 #import "RCManager.h"
-#import "RCCustomChatAndVideoView.h"
 
 @interface RCManager() {
     NSString *restCommUserName;
@@ -255,17 +254,6 @@
 {
     self.videoCallView.frame = videoFrame;
     return self.videoCallView;
-}
--(RCCustomChatAndVideoView *)getRCCustomChatView:(CGRect)instantMessageFrame
-{
-    self.mChatView=[RCCustomChatAndVideoView customMessageViewFrame:instantMessageFrame];
-    return self.mChatView;
-}
--(RCCustomChatAndVideoView *)getRCCustomVideoChatView:(CGRect)videoChatViewFrame toEmbedInClientVideoView:(BOOL)embedInClientVideoView
-{
-    self.mChatView=[RCCustomChatAndVideoView customVideoViewFrame:videoChatViewFrame :embedInClientVideoView];
-    [self.mChatView addSubview:[self getVideoChatViewWithFrame:CGRectMake(0,0,self.mChatView.frame.size.width,self.mChatView.frame.size.height-35)]];
-    return self.mChatView;
 }
 -(NSString *)getSenderName:(NSString *)senderUri
 {
